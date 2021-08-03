@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <stdlib.h>
 #include <time.h>
 #include <vector>
@@ -36,7 +36,7 @@ int main()
                     for (int i = 0; i < 3; i++)
                     {
                         sf::CircleShape circle(30.0f);
-                        circle.setFillColor(sf::Color(sf::Uint8(rand() % 255), sf::Uint8(rand() % 255), sf::Uint8(rand() % 255)));                            // circle.setFillColor(sf::Color(sf::Uint8(rand() % 255), sf::Uint8(rand() % 255), sf::Uint8(rand() % 255), sf::Uint8(rand() % 255)));
+                        circle.setFillColor(sf::Color(sf::Uint8(rand() % 255), sf::Uint8(rand() % 255), sf::Uint8(rand() % 255), sf::Uint8(rand() % 255)));                            
                         sf::Vector2i mouse_position = sf::Mouse::getPosition(window); 
                         if (i == 0)
                         {
